@@ -30,9 +30,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
 wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O ~/.z
 
-cp shell/.zshrc ~
-sudo rm -fr shell
+cp .zshrc ~
+sudo rm -fr ~/shell
 
-echo "skip_global_compinit=1" > .zshenv 
+echo "skip_global_compinit=1" > ~/.zshenv 
 
-source .zshrc
+source ~/.zshrc
