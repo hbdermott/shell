@@ -34,7 +34,7 @@ sudo mkdir -p $ZSH_CUSTOM/themes && curl https://raw.githubusercontent.com/fjpal
 echo "skip_global_compinit=1" > ~/.zshenv 
 
 cp .zshrc ~
-cd ~
-sudo rm -fr ~/shell
+# cd ~
+# sudo rm -fr ~/shell
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
